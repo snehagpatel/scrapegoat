@@ -3,9 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 import os
-import pdfkit
 import csv
-import pickle
 
 seconds = 5
 shorter_seconds = 2
