@@ -53,7 +53,7 @@ def article_links(drive, ticker_list):
             print('Saving links for ' + ticker + '...')
         else:
             print('No links found for ' + ticker)
-        drive.get('https://app.tegus.co/users/sign_in')
+        drive.get('*INSERT SPLASH PAGE URL HERE*')
         time.sleep(shorter_seconds)
     return links
 
@@ -74,7 +74,7 @@ print('Ticker list created')
 
 ## Logging in
 driver = webdriver.Chrome()
-driver.get('https://app.tegus.co/users/sign_in')
+driver.get('*INSERT SPLASH PAGE URL HERE*')
 time.sleep(seconds)
 login(driver, 'insertemail@email.com', '*******')
 print('Logging In')
@@ -95,7 +95,7 @@ with open('links.txt', 'w') as f:
 ### Resume code using this:
 '''
 driver = webdriver.Chrome()
-driver.get('https://app.tegus.co/users/sign_in')
+driver.get('*INSERT SPLASH PAGE URL HERE*')
 time.sleep(seconds)
 login(driver, 'insertemail@email.com', '*******')
 print('Logging In')
