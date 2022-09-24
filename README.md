@@ -1,6 +1,6 @@
 # scrapegoat
 ### _THIS CODE IS FOR LEARNING PURPOSES ONLY AND SHOULD NOT BE ACTUALLY APPLIED_
-ScrapeGoat is a code I've written from scratch to access a specific website and scrape for articles about certain tickers.
+ScrapeGoat is a code I've written from scratch to web scrape for articles about certain tickers.
 
 # Getting started
 To use ScrapeGoat, tickers.csv is a csv file that contains the ticker names for all desired companies. You will also need an account email and password to access the site that was scraped.
